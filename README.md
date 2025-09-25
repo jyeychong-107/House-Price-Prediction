@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project analyzes the **Ames Housing dataset** to study key factors affecting house prices.  
-The workflow covers **data cleaning, exploratory data analysis (EDA), feature engineering, and regression modeling**, followed by an **interactive Power BI dashboard** to present insights and predictions.
+The workflow covers **data cleaning, exploratory data analysis (EDA), and regression modeling**, followed by an **interactive Power BI dashboard** to present insights and predictions.
 
 ## 🔑 Objectives
 - Perform **data cleaning and preprocessing** on housing data.  
@@ -16,21 +16,18 @@ The workflow covers **data cleaning, exploratory data analysis (EDA), feature en
    - Handle missing values, encode categorical features, and normalize data.  
 2. **Exploratory Data Analysis (EDA)**  
    - Visualize distributions, correlations, and key housing features.  
-3. **Feature Engineering**  
-   - Create new features (e.g., Total SF = basement + 1st + 2nd floor).  
-   - Select top features using correlation and importance scores.  
-4. **Modeling**  
+3. **Modeling**  
    - Train Linear Regression, Ridge Regression, Random Forest, Gradient Boosting.  
    - Perform **cross-validation** and **hyperparameter tuning**.  
-5. **Model Evaluation**  
+4. **Model Evaluation**  
    - Compare models using **RMSE**.  
    - Best model: *Gradient Boosting*.  
-6. **Dashboard Development**  
+5. **Dashboard Development**  
    - Build **Power BI dashboard** to display housing insights and predictions.  
 
 ## 🚀 Results
 - Trained on **1,460 housing records**.  
-- Achieved **15% lower RMSE** after feature engineering and hyperparameter tuning.  
+- Achieved **15% lower RMSE** after hyperparameter tuning.  
 - Delivered an interactive Power BI dashboard for stakeholders.  
 
 ## 🔧 Future Improvements
