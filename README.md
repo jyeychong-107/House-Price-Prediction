@@ -1,13 +1,47 @@
-# House Price Prediction 🏡  
-This project explores house prices using data analysis and machine learning.  
-Steps included: data cleaning, exploratory data analysis (EDA), feature engineering, and regression modeling (Linear Regression, Ridge Regression, Random Forest, Gradient Boosting).  
+# 🏡 House Price Prediction Data Analysis Project
 
-## Results
--Best Model: Gradient Boosting Regressor
+## 📌 Project Overview
+This project analyzes the **Ames Housing dataset** to study key factors affecting house prices.  
+The workflow covers **data cleaning, exploratory data analysis (EDA), feature engineering, and regression modeling**, followed by an **interactive Power BI dashboard** to present insights and predictions.
 
--Key Features: Overall Quality, Living Area, Year Built
+## 🔑 Objectives
+- Perform **data cleaning and preprocessing** on housing data.  
+- Conduct **exploratory data analysis (EDA)** to identify trends and correlations.  
+- Implement and compare **Linear Regression, Ridge Regression, Random Forest, and Gradient Boosting** models.  
+- Evaluate models using **Root Mean Squared Error (RMSE)**.  
+- Build a **Power BI dashboard** to communicate findings and predictions.  
 
-## Tools
-- Python, Pandas, Scikit-learn, Matplotlib  
-- Jupyter Notebook
-- Excel
+## 📊 Data Analysis Steps
+1. **Data Import & Cleaning**  
+   - Handle missing values, encode categorical features, and normalize data.  
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualize distributions, correlations, and key housing features.  
+3. **Feature Engineering**  
+   - Create new features (e.g., Total SF = basement + 1st + 2nd floor).  
+   - Select top features using correlation and importance scores.  
+4. **Modeling**  
+   - Train Linear Regression, Ridge Regression, Random Forest, Gradient Boosting.  
+   - Perform **cross-validation** and **hyperparameter tuning**.  
+5. **Model Evaluation**  
+   - Compare models using **RMSE**.  
+   - Best model: *Gradient Boosting*.  
+6. **Dashboard Development**  
+   - Build **Power BI dashboard** to display housing insights and predictions.  
+
+## 🚀 Results
+- Trained on **1,460 housing records**.  
+- Achieved **15% lower RMSE** after feature engineering and hyperparameter tuning.  
+- Delivered an interactive Power BI dashboard for stakeholders.  
+
+## 🔧 Future Improvements
+- Deploy the model as a **web application** (e.g., Streamlit/Flask).  
+- Expand dataset for better generalization.  
+- Explore advanced models (XGBoost, LightGBM, CatBoost).  
+- Automate Power BI refresh with updated predictions.  
+
+## 🛠️ Tech Stack
+- **Python**: pandas, numpy, scikit-learn, matplotlib, seaborn  
+- **Visualization**: Power BI  
+- **Version Control**: Git & GitHub  
+
+---
