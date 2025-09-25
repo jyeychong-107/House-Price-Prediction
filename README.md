@@ -27,7 +27,7 @@ The workflow covers **data cleaning, exploratory data analysis (EDA), and regres
 
 ## 🚀 Results
 - Trained on **1,460 housing records**.  
-- Achieved **15% lower RMSE** after hyperparameter tuning.  
+- Achieved **19% lower RMSE** after hyperparameter tuning.  
 - Delivered an interactive Power BI dashboard for stakeholders.  
 
 ## 🔧 Future Improvements
